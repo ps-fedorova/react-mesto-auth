@@ -4,7 +4,11 @@
   "description": "Learning project",
   "author": "Polina Fedorova",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://ps-fedorova.github.io/react-mesto-auth/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ps-fedorova/react-mesto-auth.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

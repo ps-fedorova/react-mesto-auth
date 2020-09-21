@@ -1,6 +1,6 @@
 # Проект на Реакте с авторизацией и регистрацией
 
-##**Макеты от Яндекс**
+## **Макеты от Яндекс**
 
 * [Верстка](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4?node-id=0%3A1)
 * [Формы](https://www.figma.com/file/nlYpT4VhFiwimn2YlncrcF/JavaScript.-Sprint-5?node-id=0%3A1)
