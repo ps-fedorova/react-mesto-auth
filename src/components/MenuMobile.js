@@ -1,8 +1,6 @@
 import React from 'react';
 
 function MenuMobile(props) {
-
-
   return (
     <div className={`menu-mobile__position ${props.isShowMenu}`}>
       <menu className='menu-mobile'>

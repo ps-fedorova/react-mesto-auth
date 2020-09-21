@@ -4,11 +4,7 @@ import FormPopup from './FormPopup';
 function Confirm(props) {
   const handleCardDelete = (evt) => {
     evt.preventDefault();
-
-
     props.onCardDelete();
-
-
   };
 
   return (

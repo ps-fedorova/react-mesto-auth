@@ -2,7 +2,6 @@ import React from 'react';
 import FormPopup from './FormPopup';
 
 function InfoTooltip(props) {
-
   return (
     <FormPopup
       name="info-tooltip"
@@ -16,8 +15,6 @@ function InfoTooltip(props) {
       <div className='form__position-title-popup-info'>
         <p className='form__title'>{props.codeStatusInfo.text}</p>
       </div>
-
-
     </FormPopup>
   );
 }

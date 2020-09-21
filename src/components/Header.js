@@ -1,13 +1,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../images/logo.svg';
-import MenuMobile from './MenuMobile';
-
 
 function Header(props) {
-
-
-
   // Открыть/закрыть email пользователя в мобильной версии
   function openAuthInfo() {
     props.showMenu('mobile_position1');

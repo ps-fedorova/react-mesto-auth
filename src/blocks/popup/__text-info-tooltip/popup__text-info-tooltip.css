@@ -4,6 +4,7 @@
   line-height: 29px;
   text-align: center;
 }
+
 @media screen and (max-width: 619px) {
   .popup__text-info-tooltip {
     font-size: 20px;

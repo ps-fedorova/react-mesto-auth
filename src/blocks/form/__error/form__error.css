@@ -1,10 +1,10 @@
 .form__error {
-    position: absolute;
-    top: calc(100% + 6px);
-    font-size: 12px;
-    line-height: 1;
-    color: red;
-    display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  font-size: 12px;
+  line-height: 1;
+  color: red;
+  display: none;
 }
 
 @media screen and (max-width: 619px) {

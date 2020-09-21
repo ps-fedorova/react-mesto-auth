@@ -70,25 +70,23 @@ function App() {
           setEmail(res.data.email);
           history.push('/');
         })
-        .catch(err => console.log(err));
+        .catch((err) => console.log(err));
     }
   }, [history]);
-
 
   function cleanCodeStatusInfo() {
     setCodeStatusInfo(
       {
         iconStatus: loading,
         text: 'Загрузка...',
-      }
-    )
+      },
+    );
   }
 
-  function handleRegister(password, email) {
-
+  function handleRegister(password, emailUser) {
     cleanCodeStatusInfo();
 
-    auth.register(escape(password), email)
+    auth.register(escape(password), emailUser)
       .then(() => {
         setCodeStatusInfo({ iconStatus: success, text: 'Регистрация прошла успешно!' });
       })
@@ -96,24 +94,22 @@ function App() {
     setInfoTooltipOpen(true);
   }
 
-
-  function handleLogin(password, email) {
-
+  function handleLogin(password, emailUser) {
     cleanCodeStatusInfo();
 
-    auth.authorize(escape(password), email)
+    auth.authorize(escape(password), emailUser)
       .then((data) => {
         auth.getContent(data)
           .then((res) => {
             setEmail(res.data.email);
           })
-          .catch(err => console.log(err));
+          .catch((err) => console.log(err));
         setLoggedIn(true);
         setCodeStatusInfo({ iconStatus: success, text: 'Вход выполнен!' });
         history.push('/');
       })
 
-      .catch((err) => setCodeStatusInfo({ iconStatus: clientError, text: err.message }))
+      .catch((err) => setCodeStatusInfo({ iconStatus: clientError, text: err.message }));
     setInfoTooltipOpen(true);
   }
 
@@ -249,19 +245,23 @@ function App() {
   }
 
   function showMenu() {
-    isShowMenu === 'menu-mobile_type_close'
-      ? setIsShowMenu('menu-mobile_type_open')
-      : setIsShowMenu('menu-mobile_type_close');
+    if (isShowMenu === 'menu-mobile_type_close') {
+      setIsShowMenu('menu-mobile_type_open');
+    } else {
+      setIsShowMenu('menu-mobile_type_close');
+    }
 
-    classHeaderMenu === 'header__menu_type_opened'
-      ? setClassHeaderMenu('header__menu_type_closed')
-      : setClassHeaderMenu('header__menu_type_opened')
+    if (classHeaderMenu === 'header__menu_type_opened') {
+      setClassHeaderMenu('header__menu_type_closed');
+    } else {
+      setClassHeaderMenu('header__menu_type_opened');
+    }
   }
 
   return (
     <CurrentUserContext.Provider value={currentUser}>
-      {loggedIn &&
-      < MenuMobile
+      {loggedIn
+      && < MenuMobile
         email={email}
         signOut={handleSignOut}
         isShowMenu={isShowMenu}

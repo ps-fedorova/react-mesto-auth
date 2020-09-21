@@ -26,10 +26,10 @@
 
 @import url(./__icon/form__icon.css);
 
-@import url(__position/form__position.css);
-@import url(__position/_type/form__position_type_entrance.css);
-@import url(__position/_type/form__position_type_popup.css);
-@import url(__position-title-popup-info/form__position-title-popup-info.css);
+@import url(./__position/form__position.css);
+@import url(./__position/_type/form__position_type_entrance.css);
+@import url(./__position/_type/form__position_type_popup.css);
+@import url(./__position-title-popup-info/form__position-title-popup-info.css);
 
 @import url(./__entrance-text/form__entrance-text.css);
 

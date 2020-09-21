@@ -69,7 +69,6 @@ function Entrance(props) {
     }
   }
 
-
   function onSubmit(evt) {
     evt.preventDefault();
     if (!email && !password) return;
@@ -78,7 +77,11 @@ function Entrance(props) {
   }
 
   function handleShowPassword() {
-    inputPasswordType === 'password' ? setInputPasswordType('text') : setInputPasswordType('password');
+    if (inputPasswordType === 'password') {
+      setInputPasswordType('text');
+    } else {
+      setInputPasswordType('password');
+    }
   }
 
   return (

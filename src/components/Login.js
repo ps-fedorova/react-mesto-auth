@@ -2,7 +2,6 @@ import React from 'react';
 import Entrance from './Entrance';
 
 function Login(props) {
-
   function submitForm(password, email) {
     props.onLogin(password, email);
   }

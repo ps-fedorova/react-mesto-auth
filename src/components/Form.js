@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ButtonClose from "./ButtonClose";
+import ButtonClose from './ButtonClose';
 
 function Form(props) {
-
   const classTitle = `${(props.entrance)
     ? 'form__title'
     : 'form__title form__title_popup'
@@ -11,9 +10,9 @@ function Form(props) {
 
   const classButton = `button form__button
   ${props.entrance
-    ? `form__button_type_entrance`
+    ? 'form__button_type_entrance'
     : `form__button_type_popup ${props.isDisabled ? 'form__button_disabled' : ''}`
-  }`;
+}`;
 
   const classPosition = `${props.entrance
     ? 'form__position'
@@ -33,17 +32,15 @@ function Form(props) {
       <form className={classPosition} name={props.name} noValidate>
 
         {props.entrance
-          ?
-          <div className="form__position_type_entrance">{/*Обертка нужна, чтобы кнопка "войти" была подвижной*/}
-            {props.children} {/*Здесь лежат "инпуты"*/}
+          ? <div className="form__position_type_entrance">{/* Обертка нужна, чтобы кнопка "войти" была подвижной */}
+            {props.children} {/* Здесь лежат "инпуты" */}
           </div>
-          :
-          <>
-            {props.children} {/* для попапов подвижность не нудна*/}
+          : <>
+            {props.children} {/* для попапов подвижность не нудна */}
           </>
         }
 
-        {/*Если у нас попап с советами, то нет кнопки "отправить"*/}
+        {/* Если у нас попап с советами, то нет кнопки "отправить" */}
         {!props.infoTooltip
         && (
           <button type="submit"
@@ -55,7 +52,7 @@ function Form(props) {
 
       </form>
 
-      {/*ТЕКСТ под кнопкой "отправить" только для входа*/}
+      {/* ТЕКСТ под кнопкой "отправить" только для входа */}
       {props.entrance
       && (<span className='form__entrance-text'>
         {props.entranceText}
