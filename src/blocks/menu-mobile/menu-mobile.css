@@ -1,0 +1,14 @@
+@import url(./__exit/menu-mobile__exit.css);
+@import url(./__position/menu-mobile__position.css);
+
+.menu-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+  margin: auto;
+  padding: 0;
+}
+
+
+

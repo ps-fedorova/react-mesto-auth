@@ -1,0 +1,9 @@
+@import url(./__position/stinner__position.css);
+
+.spinner {
+  width: 120px;
+  height: 120px;
+  background: url("../../images/status-code-LOADING_white.svg") no-repeat;
+}
+
+

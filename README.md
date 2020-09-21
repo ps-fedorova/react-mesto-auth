@@ -1,7 +1,10 @@
-# Здесь будет ваш проект на Реакте с авторизацией и регистрацией
+# Проект на Реакте с авторизацией и регистрацией
 
-Используйте ваши предыдущие наработки по проекту Mesto. Это может быть работа 11-го спринта или его улучшенная версия после 2-х последних спринтов. 
+##**Макеты от Яндекс**
 
-Все запросы на авторизацию, регистрацию и проверку токена должны работать через сервис `https://auth.nomoreparties.co`. Остальные запросы, не относящиеся к этой проектной работе могут быть к бэкенду из предыдущих спринтов.
-
-Успехов!
+* [Верстка](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4?node-id=0%3A1)
+* [Формы](https://www.figma.com/file/nlYpT4VhFiwimn2YlncrcF/JavaScript.-Sprint-5?node-id=0%3A1)
+* [Валидация](https://www.figma.com/file/XNaGNEZD5NEjeyJzAT4gMb/JavaScript.-Sprint-6?node-id=0%3A1)
+* [Лайки, редактирование аватара, попап подтверждения](https://www.figma.com/file/hhhIavVTeuilfPPZ6sbifl/JavaScript.-Sprint-9?node-id=0%3A1)
+* [Авторизация и регистрация](https://www.figma.com/file/fUESH7icdnexdbpwgYsUcc/Sprint-14-(RU)?node-id=7%3A80)
+ 
