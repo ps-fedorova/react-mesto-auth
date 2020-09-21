@@ -30,11 +30,14 @@ export const authorize = (password, email) => fetch(`${BASE_URL}/signin`, {
   },
   body: JSON.stringify({ password, email }),
 })
+  // Коды ошибок из задания: 400 - не передано одно из полей,  401 - пользователь с email не найден
+  // не соответствуют реальности. Хотя это может быть мой косяк
   .then((res) => {
     if (res.status === 400) {
-      throw new BadRequestError('Не передано одно из полей');
-    } else if (res.status === 401) {
-      throw new UnauthorizedError('Пользователь с таким email не найден');
+      throw new BadRequestError('Данные переданы не полностью или с ошибкой');
+    }
+    if (res.status === 401) {
+      throw new UnauthorizedError('Данные переданы не полностью или с ошибкой');
     }
     return res.json();
   })
