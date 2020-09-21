@@ -1,23 +1,16 @@
 {
-  "name": "mesto-react-auth",
+  "name": "mesto-react",
   "version": "0.1.0",
   "description": "Learning project",
   "author": "Polina Fedorova",
   "private": true,
-  "homepage": "https://ps-fedorova.github.io/react-mesto-auth/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ps-fedorova/react-mesto-auth.git"
-  },
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "babel-eslint": "^10.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-config": "^5.1.1",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3"
   },
   "scripts": {
@@ -44,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
     "gh-pages": "^3.1.0"
   }
 }

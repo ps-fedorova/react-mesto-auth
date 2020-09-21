@@ -1,8 +1,9 @@
-import React from 'react';
-import edit from '../images/edit.svg';
-import plus from '../images/plus.svg';
+import React from "react";
+import edit from "../images/edit.svg";
+import plus from "../images/plus.svg";
 import Card from './Card';
-import CurrentUserContext from '../contexts/CurrentUserContext';
+import {CurrentUserContext} from '../contexts/CurrentUserContext';
+
 
 function Main(props) {
   const currentUser = React.useContext(CurrentUserContext);
@@ -46,13 +47,15 @@ function Main(props) {
       </section>
 
       <ul className="card-container">
-        {props.cards.map((card) => <Card
+        {props.cards.map(card => {
+          return <Card
             key={card._id}
             card={card}
             onCardLike={props.onCardLike}
             onCardZoom={props.onCardZoom}
             onCardDelete={props.onCardDelete}
-          />)}
+          />
+        })}
       </ul>
 
     </main>

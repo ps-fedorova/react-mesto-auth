@@ -1,30 +1,24 @@
 @import url(./__logo/header__logo.css);
-@import url(./__link/header__link.css);
-@import url(./__info-desktop/header__info-desktop.css);
-@import url(./__url/header__url.css);
-@import url(./__menu/header__menu.css);
-@import url(./__menu/_type/header__menu_type_opened.css);
-@import url(./__menu/_type/header__menu_type_closed.css);
-
 .header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  border-bottom: 1px solid #545454;
-  padding: 45px 0 38px;
+    border-bottom: 1px solid rgba(165, 165, 165, .7);
 }
 
 @media screen and (max-width: 919px) {
-  .header {
-    max-width: 580px;
-
-  }
+    .header {
+        max-width: 580px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 619px) {
-  .header {
-    max-width: 619px;
-    margin: 0 -20px;
-    padding: 26px 0;
-  }
+    .header {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        max-width: 375px;
+        margin: 0 -20px;
+    }
 }

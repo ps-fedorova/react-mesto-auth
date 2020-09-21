@@ -1,11 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 function Spinner() {
-  return (
-    <div className='spinner__position'>
-      <div className="spinner" />
-    </div>
-  );
+    return (
+        <div className="spinner" />
+    )
 }
 
-export default Spinner;
+export default Spinner

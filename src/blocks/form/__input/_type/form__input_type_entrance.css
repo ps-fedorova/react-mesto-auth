@@ -1,9 +1,0 @@
-.form__input_type_entrance:-webkit-autofill {
-  -webkit-box-shadow:0 0 0 50px black inset; /* Change the color to your own background color */
-  -webkit-text-fill-color: white;
-}
-
-.form__input_type_entrance:-webkit-autofill:focus {
-  -webkit-box-shadow: 0 0 0 50px black inset;/*your box-shadow*/
-  -webkit-text-fill-color: white;
-}

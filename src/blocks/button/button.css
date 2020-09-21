@@ -1,9 +1,8 @@
 .button {
   background: none;
   border: none;
-  /*outline: none;*/
+  outline: none;
   cursor: pointer;
-  transition: all .4s, .4s ease;
 }
 
 .button:hover {
