@@ -1,5 +1,5 @@
 import React from 'react';
-import close from "../images/close.svg";
+import close from '../images/close.svg';
 
 function ButtonClose(props) {
   return (

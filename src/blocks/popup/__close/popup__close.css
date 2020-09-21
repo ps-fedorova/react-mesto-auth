@@ -1,6 +1,18 @@
 .popup__close {
-    display: block;
-    position: absolute;
-    top: -48px;
-    right: -48px;
+  display: block;
+  position: absolute;
+  top: -48px;
+  right: -48px;
+
+}
+
+@media screen and (max-width: 425px) {
+  .popup__close {
+
+    transform: translateX(50%);
+    width: 42px;
+    height: 42px;
+    right: 50%;
+    top: -60px;
+  }
 }

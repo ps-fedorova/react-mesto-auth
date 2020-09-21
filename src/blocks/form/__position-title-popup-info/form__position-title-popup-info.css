@@ -1,0 +1,7 @@
+.form__position-title-popup-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  padding-bottom: 10px;
+}

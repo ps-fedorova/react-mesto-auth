@@ -1,0 +1,7 @@
+/*Поменять цвет формы*/
+.form__container_popup {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+
+}

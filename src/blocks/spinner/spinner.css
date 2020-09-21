@@ -1,27 +1,9 @@
+@import url(./__position/stinner__position.css);
+
 .spinner {
-    left: calc(50% - 10vmin);
-    position: fixed;
-    top: 50%;
-
-    display: inline-block;
-    width: 10vmin;
-    height: 10vmin;
-    border: 1vmin solid rgba(255, 255, 255, .3);
-    border-radius: 50%;
-    border-top-color: #fff;
-    animation: spin .8s ease-in-out infinite;
-    -webkit-animation: spin .8s ease-in-out infinite;
+  width: 120px;
+  height: 120px;
+  background: url("../../images/status-code-LOADING_white.svg") no-repeat;
 }
 
 
-@keyframes spin {
-    to {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes spin {
-    to {
-        -webkit-transform: rotate(360deg);
-    }
-}

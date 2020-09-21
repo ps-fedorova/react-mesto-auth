@@ -1,0 +1,14 @@
+.form__button_type_popup {
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    margin: 18px 0 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    background: black;
+}
+
+.form__button_type_popup:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
