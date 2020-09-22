@@ -1,6 +1,6 @@
 # Проект на Реакте с авторизацией и регистрацией
 
-#### *[Смотреть демо-версию](https://ps-fedorova.github.io/react-mesto-auth/)*
+### *[Смотреть демо-версию](https://ps-fedorova.github.io/react-mesto-auth/)*
 
 ## **Макеты от Яндекс**
 
