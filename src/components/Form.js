@@ -57,7 +57,7 @@ function Form(props) {
       && (<span className='form__entrance-text'>
         {props.entranceText}
         <Link
-          to={props.path} className='link'>{props.entranceLinkText}
+          to={props.path} className='button link'>{props.entranceLinkText}
         </Link>
       </span>)
       }
