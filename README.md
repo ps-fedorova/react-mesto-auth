@@ -2,11 +2,28 @@
 
 ### *[Смотреть демо-версию](https://ps-fedorova.github.io/react-mesto-auth/)*
 
-## **Макеты от Яндекс**
+# Project Mesto-ReactJS
 
-* [Верстка](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4?node-id=0%3A1)
-* [Формы](https://www.figma.com/file/nlYpT4VhFiwimn2YlncrcF/JavaScript.-Sprint-5?node-id=0%3A1)
-* [Валидация](https://www.figma.com/file/XNaGNEZD5NEjeyJzAT4gMb/JavaScript.-Sprint-6?node-id=0%3A1)
-* [Лайки, редактирование аватара, попап подтверждения](https://www.figma.com/file/hhhIavVTeuilfPPZ6sbifl/JavaScript.-Sprint-9?node-id=0%3A1)
-* [Авторизация и регистрация](https://www.figma.com/file/fUESH7icdnexdbpwgYsUcc/Sprint-14-(RU)?node-id=7%3A80)
+## Функциональность
+
+Реализованы:
+
+* плавное открытие и закрытие попапов,
+* редактирование информации профиля,
+* увеличение изображения при клике,
+* добавление и удаление карточек,
+* лайки,
+* живая валидация форм,
+
+* авторизация,
+* регистрация
+
+## Локальная установка
+
+1. git clone https://github.com/ps-fedorova/react-mesto-auth.git
+2. cd react-mesto-auth
+3. npm i
+
+## Запуск проекта
+npm start
  
